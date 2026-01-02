@@ -1,9 +1,6 @@
 streamlit
-easyocr
-opencv-python-headless
+pytesseract
 Pillow
 numpy
 regex
-torch
-torchvision
-
+opencv-python-headless
