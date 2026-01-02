@@ -1,0 +1,8 @@
+streamlit
+easyocr
+opencv-python
+Pillow
+numpy
+regex
+torch
+torchvision
