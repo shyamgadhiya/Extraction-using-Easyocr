@@ -2,7 +2,7 @@ import streamlit as st
 import cv2
 import numpy as np
 from PIL import Image
-from src.ocr_engine import perform_ocr
+#from src.ocr_engine import perform_ocr
 
 from src.preprocessing import preprocess_image
 from src.ocr_engine import perform_ocr
@@ -38,3 +38,4 @@ if uploaded_file:
                 save_results(uploaded_file.name, target_lines)
             else:
                 st.warning("No target pattern found")
+
